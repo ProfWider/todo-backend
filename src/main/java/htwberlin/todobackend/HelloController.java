@@ -24,7 +24,7 @@ public class HelloController {
 
     @PostMapping("/postexample")
     public String postparam() {
-        return "hallo, ";
+        return "hello, ";
     }
 
     @GetMapping("/")
