@@ -23,7 +23,7 @@ public class HelloController {
         return "hello, " + par2;
     }
 
-    @PostMapping("/send")
+    @PostMapping("/postexample")
     public String postparam() {
         return "hello, ";
     }
