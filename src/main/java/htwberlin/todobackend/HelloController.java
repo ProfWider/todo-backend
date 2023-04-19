@@ -22,9 +22,9 @@ public class HelloController {
         return "hello, " + par2;
     }
 
-    @PostMapping("/postexample")
+    @PostMapping("/post")
     public String postparam() {
-        return "bonjour, ";
+        return "hello, ";
     }
 
     @GetMapping("/")
